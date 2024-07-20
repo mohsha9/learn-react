@@ -14,6 +14,9 @@ function Counter() {
   return (
     <>
       <h1>Counter value: {count}</h1>
+      <h1>Counter value: {count + 1}</h1>
+      <h1>Counter value: {count + 2}</h1>
+      <h1>Counter value: {count + 3}</h1>
       <button onClick={handleAddCount}>
         Add value
       </button>
@@ -24,7 +27,7 @@ function Counter() {
       <br />
       <button onClick={() => setCount(0)}>
         Reset
-      </button>
+      </button> 
     </>
   )
 }
