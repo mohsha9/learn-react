@@ -4,6 +4,11 @@ function Counter() {
   const [count, setCount] = useState(0);
 
   const handleAddCount = () => {
+    /* 
+      setCount((prevCount) => {
+        prevCount + 1
+      })
+    */
     count < 20 ? setCount(c => c + 1) : null
   }
 
@@ -27,7 +32,7 @@ function Counter() {
       <br />
       <button onClick={() => setCount(0)}>
         Reset
-      </button> 
+      </button>
     </>
   )
 }

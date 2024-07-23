@@ -20,6 +20,6 @@ const element1 = React.createElement(
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-    <Counter />
+    <Counter /> 
   </React.StrictMode>
 )
